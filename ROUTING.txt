@@ -1,0 +1,50 @@
+BIRINCHI PUL — PAPKA VA FAYLLAR
+
+.env.example
+.gitignore
+README.md
+VERIFICATION.md
+app/api/[...path]/route.js
+app/child/[section]/page.js
+app/child/page.js
+app/error.js
+app/globals.css
+app/layout.js
+app/login/page.js
+app/not-found.js
+app/page.js
+app/parent/[section]/page.js
+app/parent/page.js
+app/register/page.js
+components/AuthForm.js
+components/Brand.js
+components/Dashboard.js
+components/Icon.js
+components/Learn.js
+components/Modal.js
+components/Tour.js
+compose.yaml
+jsconfig.json
+lib/api.js
+lib/auth.js
+lib/db.js
+lib/domain.js
+lib/format.js
+lib/security.js
+lib/store.js
+models/User.js
+next.config.mjs
+package-lock.json
+package.json
+scripts/setup.mjs
+tests/domain.test.mjs
+tests/http-smoke.mjs
+tests/store.test.mjs
+FULL_CODE.md
+ROUTING.txt
+
+Ishga tushganda avtomatik yaratiladi:
+.env.local (npm run setup)
+node_modules/ (npm install)
+.next/ (npm run dev/build)
+.data/<oila-id>.json (oilaviy amallar)
