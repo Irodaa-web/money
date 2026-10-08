@@ -9,3 +9,4 @@ out/
 .env.production
 !.env.local
 !.env.example
+.env.local
