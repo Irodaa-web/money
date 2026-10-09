@@ -83,3 +83,36 @@ test('Telegram API request uses multipart photo bytes and sanitized errors', asy
     await assert.rejects(telegramCall('sendMessage', {}), e => e.retryAfter === 90 && !e.message.includes('secret'));
   } finally { globalThis.fetch = original; if (oldToken === undefined) delete process.env.TELEGRAM_BOT_TOKEN; else process.env.TELEGRAM_BOT_TOKEN = oldToken; }
 });
+
+test('current submission is delivered before two older jobs from another child, then backlog drains', () => {
+  const { data } = submission();
+  const old1 = data.telegramOutbox[0].id;
+  const oldTask = createTask(data, parent.id, { childId: child.id, title: 'Eski ikkinchi ish', amount: 20000, dueAt: new Date(Date.now() + 86400000).toISOString() }, [child.id]);
+  changeTask(data, child, oldTask.id, { action: 'submit' });
+  const old2 = data.telegramOutbox.at(-1).id;
+  const sibling = { ...child, id: 'd'.repeat(24), name: 'Ikkinchi bola' };
+  const current = createTask(data, parent.id, { childId: sibling.id, title: 'Yangi ish', amount: 20000, dueAt: new Date(Date.now() + 86400000).toISOString() }, [sibling.id]);
+  changeTask(data, sibling, current.id, { action: 'submit', note: 'Yangi surat', photoId: 'e'.repeat(24) });
+  const preferredId = data.telegramOutbox.at(-1).id;
+  const job = claimJob(data, Date.now(), preferredId);
+  assert.equal(job.id, preferredId);
+  assert.equal(job.childId, sibling.id);
+  assert.equal(job.photoId, 'e'.repeat(24));
+  finishJob(data, job, { ok: true });
+  for (const id of [old1, old2]) {
+    const queued = claimJob(data);
+    assert.equal(queued.id, id);
+    finishJob(data, queued, { ok: true });
+  }
+  assert.equal(data.telegramOutbox.length, 0);
+});
+
+test('priority never steals an active lease or ignores retry backoff', () => {
+  const { data } = submission();
+  const id = data.telegramOutbox[0].id;
+  const job = claimJob(data, 1000, id);
+  assert.equal(claimJob(data, 1001, id), null);
+  finishJob(data, job, { ok: false, retryAfter: 120 }, 2000);
+  assert.equal(claimJob(data, 3000, id), null);
+  assert.equal(claimJob(data, 123000, id).id, id);
+});

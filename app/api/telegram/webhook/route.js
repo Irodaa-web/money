@@ -2,6 +2,7 @@ import { receiveTelegram, secretMatches } from '@/lib/telegram';
 import { connectDB } from '@/lib/db';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 export async function POST(request) {
   if (!secretMatches(request.headers.get('x-telegram-bot-api-secret-token'), process.env.TELEGRAM_WEBHOOK_SECRET)) return Response.json({ error: 'Unauthorized' }, { status: 401 });
   try {

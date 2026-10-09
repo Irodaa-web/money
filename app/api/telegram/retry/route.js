@@ -13,6 +13,6 @@ export async function GET(request) {
   const families = await FamilyState.find({ _id: { $in: linked.map(u => String(u._id)) }, 'data.telegramOutbox': { $elemMatch: { $or: [
     { status: 'queued', nextAttemptAt: { $lte: now } }, { status: 'sending', leaseUntil: { $lt: now } },
   ] } } }).sort({ updatedAt: 1 }).select('_id').limit(10).lean();
-  await Promise.all(families.map(f => drainTelegram(f._id, 1)));
+  await Promise.all(families.map(f => drainTelegram(f._id, 3)));
   return Response.json({ ok: true, checked: families.length });
 }
