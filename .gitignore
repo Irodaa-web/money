@@ -1,12 +1,11 @@
 node_modules/
 .next/
 .data/
+.git/
+.vercel/
 coverage/
 *.log
 out/
 .env
-.env.development
-.env.production
-!.env.local
+.env.*
 !.env.example
-.env.local

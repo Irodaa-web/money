@@ -1,3 +1,12 @@
+# Telegram va rasm yangilanishi
+
+Rasm yuklash, sayt xabarnomasi va Telegram bot qo‘shilgan versiya.
+**Avval `TELEGRAM-ORNATISH.md` faylini o‘qing.** Bot tokeni va webhook sozlanmaguncha Telegram xabarlari yuborilmaydi; sayt ishlashda davom etadi.
+
+Quyida loyihaning avvalgi tavsifi saqlangan. Telegram bo‘yicha yangi yo‘riqnoma ustuvor.
+
+---
+
 # Birinchi Pul — Next.js + JavaScript + MongoDB
 
 Ota-ona va bola uchun o‘zbek tilidagi ishlaydigan o‘quv loyihasi.

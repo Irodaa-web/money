@@ -21,3 +21,23 @@
 
 /* Keep the guide and its focus trap above every highlighted page section. */
 .tour-backdrop{z-index:250}.app-shell:has(.tour-backdrop) .sidebar{pointer-events:none}
+
+/* Task evidence and Telegram notifications */
+.task-evidence{display:flex;flex-direction:column;gap:8px;margin:16px 0;color:inherit;font-size:13px;text-decoration:none;max-width:440px}
+.task-evidence img,.photo-preview img{display:block;width:100%;max-height:280px;object-fit:contain;border-radius:16px;background:#f2f6f4;border:1px solid #dde6e0}
+.photo-preview{margin:12px 0;display:grid;gap:10px}
+.telegram-card{margin:24px 0;display:grid;gap:16px}.telegram-card h2{margin:8px 0}.telegram-card p{line-height:1.65}.telegram-link{padding:16px;border-radius:14px;background:#eff7f5}
+.notification-card>div{min-width:0;flex:1}.notification-note{white-space:pre-wrap;overflow-wrap:anywhere}.task-card{scroll-margin-top:100px}.task-card:target{outline:3px solid #4ba68e}
+input[type=file]{max-width:100%;font-size:14px}input[type=file]::file-selector-button{border:0;border-radius:8px;padding:10px;background:#e4f0ea;color:#214f40;margin-right:8px;cursor:pointer}
+@media(max-width:600px){.telegram-card .row-actions{flex-wrap:wrap}.task-evidence img{max-height:220px}}
+
+/* Task completion: camera and gallery */
+.task-photo-field{display:grid;gap:10px;margin:16px 0}
+.task-photo-field p{margin:0;font-weight:600}
+.task-photo-field input[hidden]{display:none!important}
+.task-photo-field small{color:#62766b;line-height:1.5}
+.photo-actions{display:flex;flex-wrap:wrap;gap:10px}
+.photo-actions .button{flex:1 1 150px;justify-content:center}
+.task-camera{display:grid;gap:12px;padding:12px;margin:14px 0;border:1px solid #dde6e0;border-radius:16px;background:#f2f6f4}
+.task-camera video{display:block;width:100%;max-height:340px;aspect-ratio:4/3;object-fit:contain;background:#17251e;border-radius:12px}
+.task-camera p{margin:0;line-height:1.5}
