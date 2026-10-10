@@ -461,3 +461,16 @@ input[type=file]::file-selector-button { border-radius: 999px; background: rgba(
 .app-shell .modal textarea { border-radius: 22px; }
 .child-theme :is(.stat-card, .goal-card, .lesson-card):nth-child(n) { box-shadow: var(--glass-shadow); }
 .child-theme .goal-card:nth-child(n):hover { box-shadow: var(--glass-shadow-hover); }
+
+/* Parent va child: menyu scroll chizig‘ini yashirish */
+@media (min-width: 721px) {
+  .app-shell .sidebar {
+    scrollbar-width: none;
+  }
+
+  .app-shell .sidebar::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
