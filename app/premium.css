@@ -180,3 +180,284 @@ body{font-size:14px}::selection{background:#d3edac;color:#173d30}button,a,input,
 .app-shell .sidebar{position:relative;width:100%;height:auto;padding:19px 18px 11px;overflow:visible}.app-shell .sidebar .brand{font-size:22px;margin:0}.app-shell .workspace-label{position:absolute;right:18px;top:31px;font-size:7px;letter-spacing:1px;margin:0;max-width:135px;text-align:right}.app-shell .sidebar nav{gap:6px;padding:19px 0 7px;scrollbar-width:none;scroll-padding-inline:6px}.app-shell .sidebar nav::-webkit-scrollbar{display:none}.app-shell .nav-item{min-height:39px;padding:10px 12px;font-size:11px;gap:7px;flex-shrink:0}.app-shell .sidebar-bottom{padding-top:8px;margin-top:6px;border-color:#e5ebdc}.app-shell .sidebar-bottom .nav-item{font-size:10px;padding:5px 8px;min-height:28px}.parent-theme .sidebar-bottom{border-color:#ffffff18}.parent-theme .sidebar-bottom .nav-item{color:#bfceb5}.app-shell .app-main{margin:0;width:100%}.app-shell .topbar{height:66px;padding:0 20px}.app-shell .topbar:before{font-size:8px;color:#718466;letter-spacing:1.1px}.app-shell .virtual-label{font-size:8px;padding:5px 7px;gap:5px}.app-shell .topbar-right{gap:8px}.app-shell .topbar-right .avatar{height:33px;width:33px}.app-shell .dashboard-content{padding:27px 19px 0}.app-shell .page-heading{gap:15px;margin-bottom:24px}.app-shell .page-heading h1,.child-theme .page-heading h1{font-size:29px}.app-shell .page-heading .eyebrow{font-size:7px;letter-spacing:1.4px}.app-shell .page-heading p{font-size:12px;max-width:430px}.app-shell .page-heading>.button{font-size:11px;min-height:42px}.dashboard-path{margin-bottom:22px;border-radius:15px}.path-intro{padding:12px 14px;font-size:10px}.dashboard-path>a{padding:13px 10px;gap:7px;flex-direction:column;align-items:flex-start}.dashboard-path strong{font-size:10px;line-height:1.5}.dashboard-path small{font-size:8px;line-height:1.6}.path-step{width:26px;height:27px;font-size:9px;border-radius:7px}.app-shell .stats-grid{gap:13px;margin-bottom:25px}.app-shell .stat-card{padding:17px 15px;border-radius:17px}.app-shell .stat-card>div{font-size:10px;gap:5px}.app-shell .stat-card>div>svg{width:25px;height:25px;padding:5px;border-radius:7px}.app-shell .stat-card>strong{font-size:25px;letter-spacing:-1px;margin:12px 0 8px}.app-shell .stat-card>small{font-size:9px;line-height:1.5;display:block}.app-shell .feature-banner{padding:25px;border-radius:20px}.app-shell .feature-banner h2,.child-theme .feature-banner h2{font-size:22px}.app-shell .feature-banner p{font-size:12px}.app-shell .feature-banner .eyebrow{font-size:7px;letter-spacing:1.3px}.app-shell .section-heading h2{font-size:18px}.app-shell .section-heading .text-link{font-size:11px}.app-shell .task-card{padding:24px 21px;border-radius:20px}.app-shell .task-card h3{font-size:18px}.app-shell .task-description{font-size:13px}.app-shell .task-top{gap:10px;flex-wrap:wrap}.app-shell .task-reward>strong{font-size:16px}.app-shell .task-actions .button{font-size:12px;min-height:44px}.app-shell .task-actions .text-button{min-height:40px}.app-shell .empty-state{padding:32px 22px}.app-shell .empty-state h3{font-size:18px}.app-shell .goal-card{padding:24px}.app-shell .goal-card h3{font-size:19px}.app-shell .goal-numbers strong,.app-shell .goal-numbers small{font-size:12px}.app-shell .goal-card>p{font-size:12px}.app-shell .filter-tabs{gap:2px;padding:4px}.app-shell .filter-tabs button{font-size:10px;padding:8px 10px;min-height:40px}.app-shell .filter-bar select{font-size:13px;min-height:42px}.app-shell .wallet-hero{padding:27px;gap:20px}.app-shell .wallet-hero h2{font-size:34px}.app-shell .wallet-hero p{font-size:11px}.app-shell .ledger-row>span:last-child{font-size:11px;white-space:normal;text-align:right;overflow-wrap:anywhere;max-width:35%}.app-shell .ledger-row strong{font-size:12px}.app-shell .ledger-row small{font-size:10px}.app-shell .lesson-card{padding:25px}.app-shell .lesson-card h2{font-size:22px}.app-shell .answers button{font-size:12px;min-height:46px}.app-shell .modal{padding:23px;border-radius:22px;max-height:calc(100svh - 30px)}.app-shell .modal input,.app-shell .modal select,.app-shell .modal textarea{font-size:16px}.app-shell .modal-title h2{font-size:22px}.app-shell .modal-actions{flex-wrap:wrap}.app-shell .modal-actions .button{min-height:44px}.app-shell .dashboard-footer{font-size:10px;padding-bottom:25px;margin-top:35px}.app-shell .notification-card{gap:12px;padding:17px}.app-shell .notification-card p{font-size:12px}.app-shell .request-card{padding:20px}.app-shell .row-actions .button{min-height:42px}}
 @media(max-width:390px){.premium-landing .landing-nav{padding:0 17px}.premium-landing .landing-nav .brand{font-size:19px;gap:7px}.premium-landing .brand-mark{width:32px;height:32px}.premium-landing .landing-nav .landing-account{gap:12px}.premium-hero{padding:37px 20px 40px}.hero-copy h1{font-size:37px}.hero-copy .hero-note{font-size:8px;gap:9px}.hero-copy .hero-actions{gap:16px}.hero-copy .hero-actions>.button{font-size:11px}.journey-scene{padding:35px 16px 27px;min-height:410px}.journey-wallet>strong{font-size:34px}.journey-task{margin-left:0;padding:12px;gap:7px}.journey-task>b{font-size:11px}.journey-task small{font-size:7px}.journey-goal{padding:15px 12px;gap:11px}.journey-goal h3{font-size:12px}.goal-picture{width:55px;font-size:29px}.scene-caption{font-size:7px}.scene-sticker{font-size:9px}.landing-section,.promise-strip,.premium-landing .premium-footer{margin-left:20px;margin-right:20px}.skills-grid{gap:10px}.skill-card{padding:17px;min-height:235px}.skill-card h3{font-size:17px}.skill-card p{font-size:11px}.panel-showcase-grid>article{padding:25px}.feature-checks{font-size:11px}.everyday-art{padding:22px}.everyday-item{padding:15px 12px;gap:9px}.everyday-item strong{font-size:11px}.auth-topline>span{font-size:7px}.premium-auth .auth-main{padding:22px}.premium-auth .role-switch button{gap:7px;font-size:11px}.role-switch button>span>small{font-size:8px}.app-shell .sidebar{padding-left:15px;padding-right:15px}.app-shell .workspace-label{font-size:6px;max-width:100px}.app-shell .sidebar .brand{font-size:21px}.app-shell .dashboard-content{padding-left:15px;padding-right:15px}.app-shell .stat-card{padding:15px 12px}.app-shell .stat-card>strong{font-size:22px}.app-shell .stat-card>div{font-size:9px}.app-shell .stat-card>small{font-size:8px}.dashboard-path strong{font-size:9px}.dashboard-path small{font-size:7px}.app-shell .filter-tabs button{padding:8px;font-size:9px}.app-shell .topbar:before{font-size:7px}.app-shell .task-reward>span{font-size:10px}.app-shell .task-reward>strong{font-size:14px}.form-row{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.button:hover:not(:disabled),.skill-card:hover,.app-shell .task-card:hover,.app-shell .goal-card:hover,.app-shell .nav-item:hover{transform:none}}
+
+/* Glass presentation system. Existing brand hues; no component or data changes. */
+:root {
+  --glass-primary-rgb: 33, 99, 76;
+  --glass-ink-rgb: 25, 59, 49;
+  --glass-lilac-rgb: 238, 233, 245;
+  --glass-warm-rgb: 251, 235, 215;
+  --glass-mint-rgb: 233, 239, 223;
+  --glass-bg: #fdfdf9;
+  --glass-strong-bg: #fff;
+  --glass-tint-bg: #e9efdf;
+  --glass-border: rgba(255, 255, 255, .82);
+  --glass-line: rgba(33, 99, 76, .15);
+  --glass-blur: 26px;
+  --glass-blur-strong: 36px;
+  --glass-radius: 28px;
+  --glass-radius-small: 20px;
+  --glass-shadow: 0 18px 48px rgba(25, 59, 49, .08), 0 3px 9px rgba(25, 59, 49, .035), inset 0 1px 0 rgba(255, 255, 255, .92);
+  --glass-shadow-hover: 0 24px 55px rgba(25, 59, 49, .12), inset 0 1px 0 rgba(255, 255, 255, .95);
+  --radius: var(--glass-radius);
+}
+/* Opaque defaults above are the fallback; translucency requires blur support. */
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --glass-bg: rgba(255, 255, 255, .59);
+    --glass-strong-bg: rgba(255, 255, 255, .88);
+    --glass-tint-bg: rgba(233, 239, 223, .57);
+  }
+}
+.child-theme { --glass-primary-rgb: 91, 111, 54; }
+.auth-child { --glass-primary-rgb: 101, 85, 130; }
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(ellipse at 6% 5%, rgba(33, 99, 76, .14), transparent 46%), radial-gradient(ellipse at 96% 40%, rgba(238, 233, 245, .85), transparent 49%), radial-gradient(ellipse at 25% 95%, rgba(251, 235, 215, .65), transparent 48%);
+  background-attachment: fixed;
+}
+.premium-landing, .premium-auth, .app-shell, .child-theme { background: transparent; }
+/* Shared surfaces, applied through existing classes to every route. */
+.glass,
+:is(.premium-landing, .premium-auth, .app-shell, .center-page) :is(.card, .stat-card, .task-card, .goal-card, .lesson-card, .child-balance-card, .dashboard-path, .family-total-strip, .empty-state, .journey-scene, .journey-task, .journey-goal, .skill-card, .sample-review, .sample-child-goal, .everyday-art, .everyday-item, .auth-dream-card, .auth-success, .hero-preview, .floating-badge) {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+}
+.glass-strong, .premium-auth .auth-form, .app-shell .modal, .modal {
+  background: var(--glass-strong-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 32px;
+  box-shadow: 0 28px 80px rgba(25, 59, 49, .15), inset 0 1px 0 #fff;
+  -webkit-backdrop-filter: blur(var(--glass-blur-strong));
+  backdrop-filter: blur(var(--glass-blur-strong));
+}
+:is(.premium-landing, .premium-auth, .app-shell) :is(.feature-banner, .welcome-card, .grow-note, .final-cta, .promise-strip, .parent-tip, .level-card, .telegram-link, .task-camera) {
+  background: var(--glass-tint-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+}
+.premium-landing .landing-nav {
+  width: calc(100% - 40px);
+  margin: 20px auto 0;
+  height: 82px;
+  padding-inline: 30px;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+}
+.premium-landing .journey-scene {
+  background: linear-gradient(145deg, rgba(255, 255, 255, .66), rgba(233, 239, 223, .48));
+  border-radius: 36px;
+}
+.premium-landing .scene-grid { opacity: .4; }
+.premium-landing .promise-strip { padding: 25px 28px; }
+.premium-landing .process-grid { gap: 24px; }
+.premium-landing .process-grid article, .premium-landing .faq-list details {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  box-shadow: var(--glass-shadow);
+  padding: 25px;
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+}
+.premium-landing .faq-list details { padding: 0 22px; margin-bottom: 12px; }
+.premium-landing .faq-list summary { min-height: 76px; }
+.premium-landing .faq-list details>p { padding-left: 0; padding-right: 0; }
+.premium-landing .premium-footer {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 28px 28px 0 0;
+  padding: 30px;
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+}
+/* Existing semantic tones remain distinct beneath the frosted surface. */
+.glass-mint, .premium-landing .mint, .app-shell .stat-card.green { background: linear-gradient(140deg, rgba(255,255,255,.7), rgba(233,239,223,.69)); }
+.glass-lilac, .premium-landing .lilac, .child-theme .stat-card:nth-child(2), .child-theme .goal-card:nth-child(2n), .child-theme .lesson-card:nth-child(2), .child-theme .feature-banner { background: linear-gradient(140deg, rgba(255,255,255,.72), rgba(238,233,245,.78)); }
+.glass-warm, .premium-landing .peach, .app-shell .stat-card.warm { background: linear-gradient(140deg, rgba(255,255,255,.72), rgba(251,235,215,.75)); }
+.premium-landing .yellow, .premium-landing .child-showcase, .child-theme .lesson-card, .child-theme .welcome-card { background: linear-gradient(140deg, rgba(255,255,255,.78), rgba(244,239,218,.72)); }
+.app-shell .level-card { background: linear-gradient(115deg, rgba(238,230,246,.7), rgba(249,245,231,.7)); }
+/* Dark brand areas retain a dark undercoat so white text stays legible. */
+.premium-landing .journey-wallet, .premium-landing .parent-showcase, .premium-auth .auth-story, .app-shell .wallet-hero, .family-total-strip .family-total-main {
+  background-color: #214e3e;
+  background-image: radial-gradient(ellipse at top left, rgba(233,239,223,.18), transparent 68%), linear-gradient(130deg, rgba(255,255,255,.09), transparent 65%);
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: var(--glass-radius);
+  box-shadow: 0 20px 48px rgba(25,59,49,.18), inset 0 1px 0 rgba(255,255,255,.22);
+  -webkit-backdrop-filter: blur(32px);
+  backdrop-filter: blur(32px);
+}
+.child-theme .wallet-hero { background-color: #586e40; }
+.premium-auth.auth-child .auth-story { background-color: #474773; }
+.family-total-strip .family-total-main { border-radius: 0; box-shadow: none; }
+.premium-auth .auth-story { margin: 20px 0 20px 20px; min-height: calc(100vh - 40px); }
+.premium-auth .auth-form { padding: 32px; max-width: 474px; margin: 30px auto; }
+.premium-auth .auth-main { justify-content: center; }
+.premium-auth .auth-topline { margin-bottom: 8px; }
+.premium-auth .auth-dream-card, .premium-landing .sample-review { background: var(--glass-strong-bg); }
+/* A floating frame without changing navigation positioning or route behavior. */
+.app-shell .sidebar {
+  inset: 16px auto 16px 16px;
+  width: 238px;
+  padding: 28px 16px 18px;
+  background: var(--glass-strong-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 28px;
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(32px);
+  backdrop-filter: blur(32px);
+}
+.parent-theme .sidebar {
+  background-color: #193d31;
+  background-image: radial-gradient(ellipse at top left, rgba(233,239,223,.15), transparent 65%), linear-gradient(150deg, rgba(255,255,255,.06), transparent);
+  color: #e9f0e4;
+  border-color: rgba(255,255,255,.23);
+  box-shadow: 0 20px 50px rgba(25,59,49,.16), inset 0 1px 0 rgba(255,255,255,.2);
+}
+.parent-theme .sidebar .grow-note { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.17); box-shadow: inset 0 1px 0 rgba(255,255,255,.12); }
+.app-shell .topbar {
+  margin: 16px 24px 0;
+  height: 72px;
+  padding: 0 24px;
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  background: var(--glass-bg);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+}
+.app-shell .dashboard-content { padding-top: 32px; }
+.app-shell .nav-item, .app-shell .nav-item.active { border-radius: 999px; }
+.app-shell .nav-item.active { background: rgba(var(--glass-primary-rgb), .13); box-shadow: inset 0 1px 0 rgba(255,255,255,.8); }
+.parent-theme .sidebar .nav-item.active { background: rgba(220,233,197,.9); color: #24462e; border: 1px solid rgba(255,255,255,.35); }
+.app-shell .task-card:hover, .app-shell .goal-card:hover, .premium-landing .skill-card:hover { box-shadow: var(--glass-shadow-hover); border-color: rgba(var(--glass-primary-rgb), .25); transform: translateY(-3px); }
+.child-theme .task-card:before { height: 3px; opacity: .65; }
+.app-shell .dashboard-path .path-intro { background: rgba(var(--glass-primary-rgb), .065); border-color: var(--glass-line); }
+.app-shell .dashboard-path>a+a, .family-total-strip>div+div { border-color: var(--glass-line); }
+.app-shell .dashboard-path>a:hover { background: rgba(var(--glass-primary-rgb), .07); }
+.app-shell .ledger-row { border: 1px solid rgba(33,99,76,.08); border-radius: 20px; padding: 18px; margin: 10px 0; background: rgba(255,255,255,.4); }
+.app-shell .ledger-row:last-child { border: 1px solid rgba(33,99,76,.08); }
+.app-shell .notification-card.unread { background: var(--glass-tint-bg); border-color: rgba(var(--glass-primary-rgb), .23); }
+.app-shell .task-reward, .app-shell .dashboard-footer { border-color: var(--glass-line); }
+.child-theme .task-card .task-reward { background: rgba(233,239,223,.55); border: 1px solid rgba(255,255,255,.7); border-radius: 18px; }
+.app-shell .dashboard-footer { padding: 22px; border: 1px solid var(--glass-border); border-radius: 24px 24px 0 0; background: var(--glass-bg); }
+/* Pill controls: keep original events, validation, disabled and selected states. */
+.btn-pill, .button, .premium-auth .auth-form form>.button, .child-theme .task-actions>.button.primary, .final-cta .button { border-radius: 999px; }
+.button.primary, .child-theme .task-actions>.button.primary, .final-cta .button {
+  background: linear-gradient(135deg, rgba(255,255,255,.38), transparent), rgba(var(--glass-primary-rgb), .24);
+  color: var(--green-dark);
+  border: 1px solid rgba(var(--glass-primary-rgb), .3);
+  box-shadow: 0 7px 20px rgba(var(--glass-primary-rgb), .1), inset 0 1px 0 rgba(255,255,255,.8);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+.auth-child .button.primary { color: #474773; background: linear-gradient(135deg, rgba(255,255,255,.38), transparent), rgba(101,85,130,.24); }
+.button.primary:hover:not(:disabled), .child-theme .task-actions>.button.primary:hover, .final-cta .button:hover { background-color: rgba(var(--glass-primary-rgb), .34); box-shadow: var(--glass-shadow-hover); }
+.button.light, .button.white { background: var(--glass-strong-bg); border-color: var(--glass-line); box-shadow: inset 0 1px 0 #fff, 0 5px 15px rgba(25,59,49,.04); }
+.button.danger { color: #a1413c; background: rgba(170,64,60,.14); border-color: rgba(170,64,60,.3); box-shadow: inset 0 1px 0 rgba(255,255,255,.8); }
+.button.danger:hover:not(:disabled) { background: rgba(170,64,60,.23); }
+.button.ghost:hover:not(:disabled), .icon-button:hover { background: rgba(var(--glass-primary-rgb), .08); }
+.glass-input,
+:is(.premium-auth, .app-shell, .modal) :is(input, select, textarea) {
+  background: var(--glass-strong-bg);
+  color: var(--ink);
+  border: 1px solid rgba(var(--glass-primary-rgb), .22);
+  border-radius: 999px;
+  min-width: 0;
+  box-shadow: inset 0 2px 5px rgba(25,59,49,.035), 0 1px 0 rgba(255,255,255,.9);
+}
+:is(.premium-auth, .app-shell, .modal) textarea { border-radius: 22px; }
+:is(.premium-auth, .app-shell, .modal) select { padding-right: 30px; }
+select option { background: #fff; color: #193b31; }
+:is(.premium-auth, .app-shell) :is(.role-switch, .filter-tabs) { background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 999px; box-shadow: inset 0 1px 3px rgba(25,59,49,.05); }
+:is(.premium-auth, .app-shell) :is(.role-switch, .filter-tabs) button { border-radius: 999px; color: #526744; }
+:is(.premium-auth, .app-shell) :is(.role-switch button.selected, .filter-tabs button.active) { background: var(--glass-strong-bg); border-radius: 999px; box-shadow: 0 4px 12px rgba(25,59,49,.09), inset 0 1px 0 #fff; }
+.app-shell .answers button { background: var(--glass-bg); border-color: var(--glass-line); border-radius: 20px; }
+.app-shell .answers button.correct { background: rgba(228,240,208,.9); border-color: #95b963; color: #48692b; }
+.app-shell .answers button.incorrect { background: rgba(255,240,228,.95); border-color: #e1bea0; color: #9b603a; }
+:is(.app-shell, .premium-landing, .premium-auth) :is(.tag, .pill, .virtual-label, .count, .xp-total, .scene-sticker, .sample-approve, .nav-item b, .task-xp>strong) { border-radius: 999px; }
+.app-shell .tag { background: rgba(233,239,223,.7); border: 1px solid rgba(33,99,76,.15); color: #34562b; }
+.app-shell .tag.amber, .waiting { background: rgba(251,240,218,.86); color: #946323; border: 1px solid rgba(153,99,33,.2); }
+.premium-landing .scene-sticker { background: rgba(233,239,223,.9); border-color: var(--glass-border); box-shadow: var(--glass-shadow); }
+:is(.app-shell, .premium-auth) :is(.alert, .modal-summary, .invite-code) { border-radius: 20px; }
+.app-shell .modal-summary, .app-shell .invite-code { background: rgba(233,239,223,.55); }
+.app-shell .modal-backdrop, .modal-backdrop { background: rgba(16,43,36,.4); -webkit-backdrop-filter: blur(9px); backdrop-filter: blur(9px); }
+/* Preserve the guide's existing highlight and stacking model. */
+.tour-backdrop, .app-shell .tour-backdrop { -webkit-backdrop-filter: none; backdrop-filter: none; }
+.app-shell .toast, .toast { border-radius: 999px; background: #214e3e; border-color: rgba(255,255,255,.28); box-shadow: 0 15px 40px rgba(25,59,49,.2), inset 0 1px 0 rgba(255,255,255,.2); }
+.child-theme .toast { background: #586e40; }
+input[type=file]::file-selector-button { border-radius: 999px; background: rgba(var(--glass-primary-rgb),.13); }
+/* Legible small copy and distinct keyboard focus on transparent surfaces. */
+:is(.app-shell, .premium-auth) :is(.optional, .date-preview, .section-note) { color: #64736c; }
+:is(.premium-landing, .premium-auth, .app-shell) :is(button, a, summary, input, textarea, select):focus-visible { outline: 3px solid var(--green-dark); outline-offset: 4px; }
+.parent-theme .sidebar :is(a, button):focus-visible, .premium-auth .auth-story a:focus-visible { outline-color: #dce9c5; }
+:is(.premium-auth, .app-shell) :is(input, textarea, select):focus { border-color: var(--green); box-shadow: 0 0 0 4px rgba(var(--glass-primary-rgb),.12); }
+@media (max-width:1320px) and (min-width:721px) {
+  .app-shell .sidebar { width: 214px; }
+}
+@media (max-width:1080px) and (min-width:721px) {
+  .app-shell .sidebar { width: 190px; padding-inline: 11px; }
+  .premium-auth .auth-form { padding: 25px; }
+  .app-shell .topbar { margin-inline: 18px; padding-inline: 20px; }
+}
+@media (max-width:720px) {
+  :root { --glass-blur: 20px; --glass-blur-strong: 28px; --glass-radius: 24px; }
+  .premium-landing .landing-nav { width: calc(100% - 24px); height: 70px; padding-inline: 17px; margin-top: 12px; gap: 10px; }
+  .premium-landing .landing-nav .landing-account { gap: 12px; }
+  .premium-landing .promise-strip { padding: 22px; }
+  .premium-landing .journey-scene { border-radius: 30px; }
+  .premium-landing .process-grid article { padding: 22px; grid-template-columns: 40px minmax(0,1fr); column-gap: 18px; }
+  .premium-landing .premium-footer { padding: 25px; }
+  .premium-auth .auth-main { padding: 22px 16px; }
+  .premium-auth .auth-form { padding: 26px 22px; margin-top: 24px; border-radius: 28px; }
+  .premium-auth .auth-mobile-brand { margin: 24px 10px 0; }
+  .premium-auth .auth-form h2 { font-size: 29px; }
+  .premium-auth input, .app-shell input, .app-shell select, .app-shell textarea { font-size: 16px; }
+  .app-shell .sidebar { position: relative; inset: auto; width: calc(100% - 24px); margin: 12px; border-radius: 24px; padding: 19px 16px 11px; }
+  .app-shell .app-main { margin: 0; width: 100%; }
+  .app-shell .topbar { height: 64px; margin: 12px 12px 0; padding-inline: 16px; border-radius: 22px; }
+  .app-shell .dashboard-content { padding-top: 26px; }
+  .app-shell .filter-tabs { overflow-x: auto; justify-content: flex-start; max-width: 100%; }
+  .app-shell .filter-tabs button { flex-shrink: 0; }
+  .app-shell .ledger-row { padding: 15px 10px; gap: 9px; }
+  .app-shell .modal, .modal { border-radius: 26px; padding: 23px; }
+  .app-shell .dashboard-footer { padding: 20px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .app-shell .task-card:hover, .app-shell .goal-card:hover, .premium-landing .skill-card:hover { transform: none; }
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+  .glass-mint, .glass-lilac, .glass-warm,
+  :is(.premium-landing, .premium-auth, .app-shell) :is(.journey-scene, .skill-card, .stat-card, .goal-card, .lesson-card, .feature-banner, .welcome-card, .child-showcase, .level-card) { background: #fdfdf9; }
+  .premium-landing .mint, .app-shell .stat-card.green { background: #e9efdf; }
+  .premium-landing .peach, .app-shell .stat-card.warm { background: #fbebd7; }
+  .premium-landing .lilac, .child-theme .stat-card:nth-child(2), .child-theme .feature-banner, .app-shell .level-card { background: #eee9f5; }
+  .button.primary, .child-theme .task-actions>.button.primary, .final-cta .button { background: #e9efdf; }
+  .auth-child .button.primary { background: #eee9f5; }
+  .button.danger { background: #fff0ee; }
+  .app-shell .answers button, .app-shell .ledger-row { background: #fff; }
+  .app-shell .answers button.correct { background: #e4f0d0; }
+  .app-shell .answers button.incorrect { background: #fff0e4; }
+}
+
+/* Match the existing nested dialog and alternating child-card specificity. */
+.app-shell .modal :is(input, select, textarea) {
+  background: var(--glass-strong-bg);
+  border: 1px solid rgba(var(--glass-primary-rgb), .22);
+  border-radius: 999px;
+  box-shadow: inset 0 2px 5px rgba(25,59,49,.035), 0 1px 0 rgba(255,255,255,.9);
+}
+.app-shell .modal textarea { border-radius: 22px; }
+.child-theme :is(.stat-card, .goal-card, .lesson-card):nth-child(n) { box-shadow: var(--glass-shadow); }
+.child-theme .goal-card:nth-child(n):hover { box-shadow: var(--glass-shadow-hover); }
