@@ -67,7 +67,7 @@ export default function Pricing() {
 
           <div className={styles.price}>
             <div>
-              <strong>19 000</strong>
+              <strong>49 000</strong>
               <span> so‘m / oy</span>
             </div>
             <small>Rejalashtirilgan narx</small>
